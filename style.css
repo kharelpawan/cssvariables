@@ -1,12 +1,12 @@
 :root{
     --base: #ffc600;
-    --spacing: 2px;
+    --border: 2px;
     --blur: 0px;
 }
 img{
-    /* padding: var(--spacing); */
+    /* padding: var(--border); */
     border: 2px solid var(--base);
-    border-radius: var(--spacing);
+    border-radius: var(--border);
     filter: blur(var(--blur));
     width: 100%;
     max-width: 600px;
